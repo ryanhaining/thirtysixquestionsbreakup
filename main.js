@@ -12,7 +12,7 @@ const QUESTIONS = [
   "Of your partner's previous relationships, which one makes you feel the least secure?",
   "If a crystal ball could show you the truth about any events in your partner's life for which you were not present, what would they be?",
   'In what ways does your partner fail to clean up after themself?',
-  'Who are the top three people you sexually fantasize about the most often?',
+  'Who are the top three people about whom you sexually fantasize the most often?',
   "If you could change any one thing about your partner's morals, what would it be?",
   "What aspects of your partner's family dynamic do you consider strange?",
   'Which of your platonic friends do you find the most attractive?',
