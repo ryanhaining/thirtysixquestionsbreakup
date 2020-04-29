@@ -7,6 +7,25 @@ body {
   background-color: var(--main-bg-color);
 }
 
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .question-text-container {
   text-align: center;
   color: var(--main-text-color);
@@ -22,7 +41,7 @@ body {
 }
 
 .question-text {
-  padding: 0 68px;
+  padding: 0 120px;
 }
 
 .question-number {
@@ -36,7 +55,7 @@ body {
   margin-top: -0.415em;
 
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 1600%;
+  font-size: 2000%;
   color: white;
   font-weight: 900;
   opacity: 0.15;
