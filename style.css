@@ -30,7 +30,8 @@ body {
   text-align: center;
   color: var(--main-text-color);
   font-family: 'Playfair Display', serif;
-  font-size: 40px;
+  font-size: 41px;
+  line-height: 75px;
   z-index: 5;
   max-width: 28em;
   position: fixed;
