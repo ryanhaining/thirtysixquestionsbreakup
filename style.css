@@ -69,12 +69,18 @@ body {
   margin-top: -0.415em;
 
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 2000%;
+  font-size: 256px;
   color: white;
   font-weight: 900;
   opacity: 0.15;
   user-select: none;
   z-index: 1;
+}
+
+@media (min-width: 700px) {
+  .question-number {
+    font-size: 333px;
+  }
 }
 
 .arrow {
