@@ -2,7 +2,7 @@ let counter = 1;
 
 const QUESTIONS = [
   'What is something that you do because your partner enjoys it, but you would never do otherwise?',
-  'If you told your partner something in confidence, who is the first person that they would repeat it to?',
+  'If you told your partner something in confidence, who is the first person to whom they would repeat it?',
   'When in public together, what is something your partner does that embarrasses you?',
   "Which of your partner's friends is the worst influence on them?",
   'Think of a word, phrase, or expression that your partner misuses.',
