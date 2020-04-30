@@ -30,8 +30,8 @@ body {
   text-align: center;
   color: var(--main-text-color);
   font-family: 'Playfair Display', serif;
-  font-size: 41px;
-  line-height: 75px;
+  font-size: 22px;
+  line-height: 35px;
   z-index: 5;
   max-width: 28em;
   position: fixed;
@@ -41,8 +41,21 @@ body {
   width: 100%;
 }
 
+@media (min-width: 700px) {
+  .question-text-container {
+    font-size: 41px;
+    line-height: 75px;
+  }
+}
+
 .question-text {
-  padding: 0 120px;
+  padding: 0 54px;
+}
+
+@media (min-width: 700px) {
+  .question-text {
+    padding: 0 120px;
+  }
 }
 
 .question-number {
