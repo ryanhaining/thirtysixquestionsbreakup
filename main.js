@@ -20,6 +20,7 @@ const QUESTIONS = [
   'Make three "we" statements that you wish were true, but are not.',
   "What is something about your partner for which you find yourself apologizing to your friends or family?",
   "Your partner's home catches fire. What do you hope would be destroyed? Why?",
+  "If you could become your partner for one day, what is one problem that they have which you would fix? How would you solve it?",
 ];
   
 
