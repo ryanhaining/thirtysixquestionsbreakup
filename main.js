@@ -20,7 +20,15 @@ const QUESTIONS = [
   'Make three "we" statements that you wish were true, but are not.',
   "What is something about your partner for which you find yourself apologizing to your friends or family?",
   "Your partner's home catches fire. What do you hope would be destroyed? Why?",
-  "If you could become your partner for one day, what is one problem that they have which you would fix? How would you solve it?",
+  'If you could become your partner for one day, what is one problem that they have which you would fix? How would you solve it?',
+  'What is something that your partner used to do which made you fall for them, but which they have not done in a long time?',
+  'What is a project or task on which you and your partner worked together, but which you could have completed faster by yourself?',
+  'Which of your own friends do you think would be the best significant other for your partner?',
+  'If you could change one thing about the way your partner was raised, what would it be?',
+  'Describe a day that your partner would enjoy, but throughought which you would be displeased.',
+  'What is an item of clothing that your partner should get rid of?',
+  "Which of your partner's beliefs is the most obviously incorrect?",
+  "Think of a goal of your partner's which they have yet to achieve. How could they achieve it faster?",
 ];
   
 
