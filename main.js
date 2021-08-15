@@ -24,11 +24,19 @@ const QUESTIONS = [
   'What is something that your partner used to do which made you fall for them, but which they have not done in a long time?',
   'What is a project or task on which you and your partner worked together, but which you could have completed faster by yourself?',
   'Which of your own friends do you think would be the best significant other for your partner?',
-  'If you could change one thing about the way your partner was raised, what would it be?',
+  'If you could change anything about the way your partner was raised, what would it be?',
   'Describe a day that your partner would enjoy, but throughought which you would be displeased.',
   'What is an item of clothing that your partner should get rid of?',
   "Which of your partner's beliefs is the most obviously incorrect?",
   "Think of a goal of your partner's which they have yet to achieve. How could they achieve it faster?",
+  'List the small inconveniences your partner causes you.',
+  'About what does you partner worry too much? too little?',
+  'On what does your partner spend too much money?',
+  'What is a double standard in your relationship?',
+  'What accomplishments is your partner more proud of than they should be?',
+  'In what ways are you the better partner in your relationship?',
+  'What does your partner find humorous that you do not?',
+  'On which questions do you believe your partner lied in their answers?',
 ];
   
 
