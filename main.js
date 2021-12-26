@@ -92,7 +92,7 @@ function update() {
 }
 
 window.onload = function() {
-  const question = document.getElementById('question')
+  const question = document.getElementById('question');
   question.addEventListener('animationend',
     function() {
       setQuestionText();
