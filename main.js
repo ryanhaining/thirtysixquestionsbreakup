@@ -84,14 +84,36 @@ function updateQuestionText() {
   document.getElementById('question').style.animation = 'fadeout .2s linear';
 }
 
+function updateQuestionIndexQueryParameter() {
+  const queryParameters = new URLSearchParams();
+  queryParameters.set('q', counter);
+  const path = `${window.location.pathname}?${queryParameters}`;
+  history.pushState(null, '', path);
+}
 
 function update() {
   setButtonVisibility();
   setCounterText();
   updateQuestionText();
+  updateQuestionIndexQueryParameter();
+}
+
+function isValidQuestionIndex(n) {
+  return !isNaN(n) && n >= 1 && n <= QUESTIONS.length;
+}
+
+function getQuestionIndexQueryParam() {
+  const queryParameters = new URLSearchParams(window.location.search);
+  const questionParam = queryParameters.get('q');
+  if (questionParam == null) {
+    return 1;
+  }
+  const parsed = parseInt(questionParam);
+  return isValidQuestionIndex(parsed) ? parsed : 1;
 }
 
 window.onload = function() {
+  counter = getQuestionIndexQueryParam();
   const question = document.getElementById('question');
   question.addEventListener('animationend',
     function() {
