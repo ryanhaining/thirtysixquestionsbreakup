@@ -25,7 +25,7 @@ const QUESTIONS = [
   'What is a project or task on which you and your partner worked together, but which you could have completed faster by yourself?',
   'Which of your own friends do you think would be the best significant other for your partner?',
   'If you could change anything about the way your partner was raised, what would it be?',
-  'Describe a day that your partner would enjoy, but throughought which you would be displeased.',
+  'Describe a day that your partner would enjoy, but throughout which you would be displeased.',
   'What is an item of clothing that your partner should get rid of?',
   "Which of your partner's beliefs is the most obviously incorrect?",
   "Think of a goal of your partner's which they have yet to achieve. How could they achieve it faster?",
